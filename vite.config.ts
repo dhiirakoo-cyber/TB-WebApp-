@@ -3,9 +3,9 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
 
-export default defineConfig(({ command }) => {
+export default defineConfig(() => {
   return {
-    base: command === 'serve' ? '/' : './',
+    base: '/TB-WebApp-/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
