@@ -1,0 +1,6 @@
+{
+  "name": "TB Academy",
+  "description": "Full-stack online learning academy with AI course assistant, payment verification workflow, and Supabase integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
